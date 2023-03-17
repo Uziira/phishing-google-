@@ -1,0 +1,163 @@
+body {
+    background-color: #fff;
+    font-family:"Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+  
+  }
+  .login-window {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    width: 400px;
+    height: 330px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px 50px 200px;
+    border: 1px solid #dadce0;
+  }
+  .title {
+    position: absolute;
+    text-align: center;
+    user-select: none;
+  }
+  
+  #i1 {
+    color: rgb(56, 130, 228);
+  }
+  #i2{
+    color: rgb(155, 2, 2);
+  }
+  #i3{
+    color: rgb(207, 213, 26);
+  }
+  #i4{
+    color: rgb(56, 130, 228);
+  }
+  #i5{
+    color: rgb(21, 134, 4);
+  }
+  #i6{
+    color: orangered;
+  }
+  
+  .login-window h3 {
+    font-size: 23px;
+    user-select: none;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: black;
+    padding: 0px 0px 40px;
+    box-shadow: 0px 0px 1.5px gray;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .form-container ::placeholder{
+    font-size: 15px;
+    background-color: transparent;
+    user-select: none;
+    padding: 0px 10px -10px;
+  }
+  
+  .form-container input{
+    margin-top: -30px;
+  }
+  
+  
+  form input[type="email"] {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 130px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    text-align: start;
+  }
+  form input[type="password"] {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .button {
+    justify-content: space-between;
+  }
+  button:first-child {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 130px;
+    margin-left: -7px;
+    padding-right: 80px;
+    cursor: pointer;
+    font-size: .875rem;
+    color: #1a73e8;
+  }
+  button:last-child {
+    background-color: #1a73e8;
+    color: #fff;
+    height: 45px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: transparent;
+  }
+  .signIn {
+    text-align: center;
+    font-size: 24px;
+    color: #202124;
+    word-break: break-word;
+  }
+  .continueGmail {
+    text-align: center;
+    font-size: 16px;
+    color: #202124;
+    word-break: break-word;
+  }
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    margin: auto;
+  
+  }
+  
+  .form-containe form .mail{
+    width: 25px;
+    height: 25px;
+    user-select: none;
+  }
+  input {
+    width: 100%;
+    padding: 20px;
+    font-size: 17px;
+    outline: 0;
+  }
+  .verification {
+    color: #5f6368;
+    font-size: 14px;
+  }
+  .verificationHref {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  .forgotEmail {
+    color: #5f6368;
+    font-size: 14px;
+  }
+  .forgotEmailHref {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  h3 {
+    text-align: center;
+  }
